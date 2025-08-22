@@ -5,8 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Allow clipboard access via Permissions Policy -->
     <meta http-equiv="Permissions-Policy" content="clipboard-write=(self)">
+    <style>
+        .details-button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        .details-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
+    <div>
+        <a href="https://drive.google.com/file/d/1NNsAhBc85TO_7akuPkBCYL_SvZMgcEsw/view?usp=drive_link" 
+           class="details-button" 
+           target="_blank">Details</a>
+    </div>
     <iframe 
         src="https://script.google.com/macros/s/AKfycbywEXnb3ZR3PT2uwUkBDOAgmiN9oZrwloIDX5Tc710bQ_hnjSv3kIXvvXqaWWS6bR0g/exec"
         style="width: 100%; height: 100vh; border: none;"
